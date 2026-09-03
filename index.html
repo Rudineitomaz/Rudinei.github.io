@@ -1,11 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>App Fitness</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand__logo">F</div>
+        <span class="brand__name">FitApp</span>
+      </div>
+      <a class="button button--primary" href="#download">Baixar o app</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero__content">
+          <p class="eyebrow">O app perfeito para acompanhar sua vida fitness.</p>
+        </div>
+
+        <div class="hero__image-wrap">
+          <img src="images/print_1.png" alt="Print do aplicativo fitness" class="hero__image" />
+        </div>
+
+        <div class="hero__list">
+          <ul>
+            <li>❤️ Saúde</li>
+            <li>🏃 Exercício</li>
+            <li>🤷‍♂️ Amigos</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="features">
+      <div class="container features-inner">
+        <article class="feature feature--reverse">
+          <div class="feature__image">
+            <img src="images/print_2.png" alt="Contagem de calorias" />
+          </div>
+          <div class="feature__details">
+            <h2>Monitore suas calorias com clareza</h2>
+            <p>Visualize calorias consumidas e queimadas em um painel simples, para manter seu progresso sem esforço.</p>
+            <p>O app organiza suas entradas diárias em gráficos fáceis de ler, ajudando você a identificar padrões de alimentação.</p>
+            <p>Assim você fica no controle da nutrição sem precisar de cálculos complicados ou diversas telas.</p>
+          </div>
+        </article>
+
+        <article class="feature">
+          <div class="feature__image">
+            <img src="images/print_3.png" alt="Exercícios específicos" />
+          </div>
+          <div class="feature__details">
+            <h2>Exercícios personalizados</h2>
+            <p>Receba sugestões de treinos para corrida, musculação e bem-estar, tudo ajustado ao seu ritmo.</p>
+            <p>Escolha entre metas de força e resistência e acompanhe cada série com instruções claras.</p>
+            <p>O plano se adapta à sua evolução, mantendo você motivado com objetivos reais e bem definidos.</p>
+          </div>
+        </article>
+
+        <article class="feature feature--reverse">
+          <div class="feature__image">
+            <img src="images/print_4.png" alt="Compartilhamento com amigos" />
+          </div>
+          <div class="feature__details">
+            <h2>Compartilhe com amigos</h2>
+            <p>Conecte-se com sua comunidade e inspire outras pessoas em sua jornada fitness.</p>
+            <p>Mostre seus resultados e compare conquistas com amigos para manter a rotina dinâmica.</p>
+            <p>As mensagens simples ajudam você a celebrar pequenas vitórias e continuar seguindo firme.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta" id="download">
+      <div class="container cta-inner">
+        <h2>Baixe agora e comece hoje</h2>
+        <a class="button button--primary button--large" href="#">Baixar o app</a>
+        <p class="cta__note">Totalmente gratuito</p>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Todos os direitos reservados</p>
+      </div>
+    </footer>
+  </main>
 </body>
 </html>
